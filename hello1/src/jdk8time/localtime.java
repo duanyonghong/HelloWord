@@ -18,8 +18,6 @@ public class localtime {
         System.out.println("localTime = " + localTime);
         System.out.println("localDateTime = " + localDateTime);
 
-        
-
     }
 
 
