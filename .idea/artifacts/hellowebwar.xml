@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hellowebwar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hellowebwar</output-path>
+    <root id="archive" name="hellowebwar.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/helloweb/web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloweb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/helloweb/web/WEB-INF/lib/fastjson-1.2.51.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="helloweb/web/Web" />
+    </root>
+  </artifact>
+</component>
